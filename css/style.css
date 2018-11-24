@@ -1,0 +1,32 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+.cell:hover{
+  stroke: black;
+  stroke-width: .5px;
+}
+
+
+g.hidden line, 
+g.hidden path{
+}
+
+g.y text {
+  font-size: 15px;
+}
+
+div.tooltip {
+  background-color: #ff4500;
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  text-align: center;
+  min-width: 150px;
+  height: auto;
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
